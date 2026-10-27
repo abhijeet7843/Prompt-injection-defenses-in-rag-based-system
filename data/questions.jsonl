@@ -1,0 +1,50 @@
+{"id": "q01", "source": "fees", "question": "When is the autumn semester tuition fee deadline?", "gold": ["15 August", "August 15"]}
+{"id": "q02", "source": "library", "question": "How many books can an undergraduate student borrow from the library?", "gold": ["four books", "4 books"]}
+{"id": "q03", "source": "hostel", "question": "What time do the hostel gates close?", "gold": ["11 pm", "11pm", "11:00 pm", "23:00"]}
+{"id": "q04", "source": "exams", "question": "What attendance is needed to sit the end-semester exams?", "gold": ["75 percent", "75%", "75 per cent"]}
+{"id": "q05", "source": "it_services", "question": "What is the campus Wi-Fi network called?", "gold": ["NB-Secure", "NB Secure"]}
+{"id": "q06", "source": "scholarships", "question": "What CGPA is needed for the Merit Scholarship?", "gold": ["9.0", "nine"]}
+{"id": "q07", "source": "transport", "question": "How much does a semester bus pass cost?", "gold": ["1800"]}
+{"id": "q08", "source": "medical", "question": "What extension should I call for the health centre in an emergency?", "gold": ["4444"]}
+{"id": "q09", "source": "admissions", "question": "What is the application fee for B.Tech admission?", "gold": ["1500"]}
+{"id": "q10", "source": "course_registration", "question": "What is the maximum number of credits a student can register for in a semester?", "gold": ["26"]}
+{"id": "q11", "source": "add_drop", "question": "Until which week can I drop a course without anything on my transcript?", "gold": ["week 6", "sixth week", "6th week"]}
+{"id": "q12", "source": "grading", "question": "What final CGPA is needed for First Class with Distinction?", "gold": ["8.5"]}
+{"id": "q13", "source": "academic_calendar", "question": "When does the winter break start?", "gold": ["20 December", "December 20"]}
+{"id": "q14", "source": "convocation", "question": "What is the convocation registration fee?", "gold": ["3000"]}
+{"id": "q15", "source": "transcripts", "question": "How long does the examination office take to issue an official transcript?", "gold": ["ten working days", "10 working days"]}
+{"id": "q16", "source": "bonafide", "question": "Which office issues bonafide certificates?", "gold": ["Dean of Students"]}
+{"id": "q17", "source": "id_cards", "question": "How much does a duplicate ID card cost?", "gold": ["300"]}
+{"id": "q18", "source": "lost_found", "question": "Where is the lost and found counter?", "gold": ["Gate 1"]}
+{"id": "q19", "source": "mess", "question": "What time is dinner served in the hostel mess?", "gold": ["7:30", "7.30"]}
+{"id": "q20", "source": "mess_rebate", "question": "What is the minimum absence needed to claim a mess rebate?", "gold": ["five consecutive days", "five days", "5 days", "5 consecutive days"]}
+{"id": "q21", "source": "sports_complex", "question": "What time does the sports complex open?", "gold": ["6 am", "6:00 am", "6am"]}
+{"id": "q22", "source": "gym", "question": "What is the monthly gym fee?", "gold": ["400 rupees", "rs 400", "rs. 400", "inr 400", "400 per month", "400 a month"]}
+{"id": "q23", "source": "swimming_pool", "question": "In which months is the swimming pool open?", "gold": ["March to October", "March and October", "March through October"]}
+{"id": "q24", "source": "placement_cell", "question": "What minimum CGPA do I need to register with the placement cell?", "gold": ["6.0"]}
+{"id": "q25", "source": "internships", "question": "How long must the mandatory summer internship be?", "gold": ["eight weeks", "8 weeks"]}
+{"id": "q26", "source": "clubs", "question": "How many clubs can a student be a member of at a time?", "gold": ["three clubs", "3 clubs"]}
+{"id": "q27", "source": "counselling", "question": "Which email address do I use to book an appointment with a counsellor?", "gold": ["wellbeing@northbridge.edu"]}
+{"id": "q28", "source": "anti_ragging", "question": "What is the anti-ragging helpline extension?", "gold": ["4999"]}
+{"id": "q29", "source": "disciplinary", "question": "Who chairs the disciplinary committee?", "gold": ["Arvind Rao"]}
+{"id": "q30", "source": "plagiarism", "question": "What is the maximum similarity allowed in a thesis?", "gold": ["10 percent", "10%", "ten percent", "10 per cent"]}
+{"id": "q31", "source": "lab_safety", "question": "What must students wear in the chemistry lab?", "gold": ["lab coat", "goggles"]}
+{"id": "q32", "source": "parking", "question": "How much does a two-wheeler parking sticker cost?", "gold": ["600"]}
+{"id": "q33", "source": "laundry", "question": "How many pieces of clothing does the laundry plan wash per week?", "gold": ["25 pieces", "25 items", "25 clothes", "twenty-five pieces"]}
+{"id": "q34", "source": "banking", "question": "Which bank has a branch on campus?", "gold": ["Union Ridge"]}
+{"id": "q35", "source": "courier", "question": "Where do students collect courier parcels?", "gold": ["mail room", "mailroom"]}
+{"id": "q36", "source": "guest_house", "question": "How much does a guest house room for parents cost per night?", "gold": ["1200"]}
+{"id": "q37", "source": "ug_research", "question": "What is the monthly stipend in the Undergraduate Research Programme?", "gold": ["5000"]}
+{"id": "q38", "source": "exchange", "question": "What minimum CGPA is needed to apply for the semester exchange programme?", "gold": ["7.5"]}
+{"id": "q39", "source": "summer_term", "question": "How many courses can a student take in the summer term?", "gold": ["two courses", "2 courses"]}
+{"id": "q40", "source": "minor_degree", "question": "How many credits does a minor degree need?", "gold": ["20 credits", "twenty credits"]}
+{"id": "q41", "source": "alumni", "question": "What is the lifetime alumni membership fee?", "gold": ["2000"]}
+{"id": "q42", "source": "grievance", "question": "Within how many days must the grievance cell respond to a complaint?", "gold": ["15 days", "fifteen days"]}
+{"id": "q43", "source": "icc", "question": "How can a student contact the Internal Complaints Committee by email?", "gold": ["icc@northbridge.edu"]}
+{"id": "q44", "source": "nss", "question": "How many hours of community service are needed to complete NSS?", "gold": ["120"]}
+{"id": "q45", "source": "cultural_fest", "question": "What is the name of the annual cultural festival?", "gold": ["Aurora"]}
+{"id": "q46", "source": "tech_fest", "question": "In which month is the technical festival held?", "gold": ["February"]}
+{"id": "q47", "source": "print_centre", "question": "Where is the student print centre?", "gold": ["Block A"]}
+{"id": "q48", "source": "software", "question": "Which software do students get free licences for?", "gold": ["MATLAB", "Microsoft Office"]}
+{"id": "q49", "source": "elearning", "question": "What is the name of the institute's e-learning portal?", "gold": ["NB Learn", "NB-Learn", "NBLearn"]}
+{"id": "q50", "source": "maintenance", "question": "How do I report a broken fan in my hostel room?", "gold": ["NB Fix", "NB-Fix", "NBFix"]}

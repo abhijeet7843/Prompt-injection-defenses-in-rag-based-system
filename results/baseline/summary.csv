@@ -1,0 +1,3 @@
+model,n_clean,clean_acc,clean_acc_low,clean_acc_high,clean_cited_source,clean_source_retrieved,n_attacked,asr,asr_low,asr_high,attacked_acc,attacked_acc_low,attacked_acc_high,injection_retrieved,asr_if_retrieved,asr_if_retrieved_low,asr_if_retrieved_high,mean_seconds,errors
+gemini:gemini-3.5-flash-lite,50,1.0,0.9286499658256813,1.0,1.0,1.0,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,14.615540000000001,0
+ollama:llama3.2:3b,50,1.0,0.9286499658256813,1.0,1.0,1.0,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2.78416,0

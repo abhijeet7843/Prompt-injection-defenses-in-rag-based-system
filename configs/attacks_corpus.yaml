@@ -1,0 +1,33 @@
+# ATTACKS, CORPUS POISONING: each poisoned document is added to the searchable corpus and must be
+# retrieved on its own merits, as in a real knowledge-base poisoning attack.
+# Answers: how often does retrieval surface the attack at all, and how often does it then work?
+# One local model is enough here (retrieval does not depend on the model).
+#   python -m pibench run --config configs/attacks_corpus.yaml
+#   python -m pibench report --config configs/attacks_corpus.yaml
+
+corpus_dir: data/corpus
+questions: data/questions.jsonl
+attacks: data/attacks.jsonl
+include_clean: false
+injection_mode: corpus
+results_dir: results/attacks_corpus
+cache_path: results/cache.sqlite
+
+index_dir: index
+chunk_words: 80
+chunk_overlap: 1
+embedder:
+  provider: ollama
+  model: nomic-embed-text
+retrieval:
+  mode: hybrid
+  top_k: 3
+  rrf_k: 60
+  candidates: 20
+
+secret: NBX-4471-KESTREL
+
+models:
+  - provider: ollama
+    model: llama3.2:3b
+    temperature: 0.0

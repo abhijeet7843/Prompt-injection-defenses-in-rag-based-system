@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Rebuilt automatically from the corpus by `python -m pibench index`.
+index/
+index_smoke/
+
+# Every model answer and embedding. Large and rebuildable: back it up, don't commit it.
+results/cache.sqlite
+results/smoke/
+
+# Keep your hand labels and final results in git: they are the evidence for the report.

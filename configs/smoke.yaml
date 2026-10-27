@@ -1,0 +1,24 @@
+# SMOKE TEST: the whole pipeline offline in seconds, with the gullible mock model and the hash
+# "embedder". Run it after any change. Its numbers are NOT results.
+#   python -m pibench run --config configs/smoke.yaml
+
+corpus_dir: data/corpus
+questions: data/questions.jsonl
+attacks: data/attacks.jsonl
+include_clean: true
+injection_mode: forced
+results_dir: results/smoke
+cache_path: results/smoke/cache.sqlite
+
+index_dir: index_smoke   # separate, so the fake embeddings never overwrite the real index
+chunk_words: 80
+chunk_overlap: 1
+embedder:
+  provider: hash
+  dim: 512
+retrieval:
+  mode: hybrid
+  top_k: 3
+
+models:
+  - provider: mock

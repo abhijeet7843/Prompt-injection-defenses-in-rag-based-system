@@ -1,0 +1,36 @@
+# ATTACKS, FORCED: all 200 test attacks against the undefended pipeline. The poisoned chunk is
+# always placed in the context (start, middle or end), so every model sees every attack.
+# Answers: how often does each attack type and style work when nothing stops it?
+#   python -m pibench run --config configs/attacks_forced.yaml
+#   python -m pibench report --config configs/attacks_forced.yaml
+
+corpus_dir: data/corpus
+questions: data/questions.jsonl
+attacks: data/attacks.jsonl
+include_clean: false     # the clean questions are in the baseline experiment
+injection_mode: forced
+results_dir: results/attacks_forced
+cache_path: results/cache.sqlite
+
+index_dir: index
+chunk_words: 80
+chunk_overlap: 1
+embedder:
+  provider: ollama
+  model: nomic-embed-text
+retrieval:
+  mode: hybrid
+  top_k: 3
+  rrf_k: 60
+  candidates: 20
+
+secret: NBX-4471-KESTREL
+
+models:
+  - provider: gemini
+    model: gemini-3.5-flash-lite   # pinned version, not a -latest alias, so results stay reproducible
+    temperature: 0.0
+    min_interval_s: 4.0
+  - provider: ollama
+    model: llama3.2:3b
+    temperature: 0.0

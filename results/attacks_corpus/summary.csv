@@ -1,0 +1,2 @@
+model,n_clean,clean_acc,clean_acc_low,clean_acc_high,clean_cited_source,clean_source_retrieved,n_attacked,asr,asr_low,asr_high,attacked_acc,attacked_acc_low,attacked_acc_high,injection_retrieved,asr_if_retrieved,asr_if_retrieved_low,asr_if_retrieved_high,mean_seconds,errors
+ollama:llama3.2:3b,0,nan,nan,nan,nan,nan,200,0.05,0.027382349028644986,0.08957905629784384,0.995,0.9722256001302286,0.999116854010634,0.345,0.14492753623188406,0.08067008672383712,0.24663738592915235,2.8106400000000002,0
